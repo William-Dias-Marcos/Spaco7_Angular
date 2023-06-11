@@ -2,10 +2,8 @@
   height: 92vh;
 }
 
-section {
-  height: 50%;
-}
 .main-logo {
+  height: 65%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -19,17 +17,34 @@ section {
   display: flex;
   align-items: center;
 }
+.logo-container img {
+  margin-top: 100px;
+}
 
 .description-container {
-  background-image: linear-gradient(#fff, #439494);
+  height: 35%;
+  background-image: linear-gradient(#fff, #439494bb);
 
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
 }
 .img-home {
-  width: 400px;
+  width: 370px;
   align-self: flex-end;
   opacity: 0.8;
+}
+.description {
+  align-self: flex-end;
+  font-family: "Dancing Script", cursive;
+  font-size: 50px;
+  font-weight: bold;
+  color: rgb(20, 83, 83);
+}
+
+@media (max-width: 850px) {
+  .description {
+    display: none;
+  }
 }
 
 /* button animation style */
@@ -48,16 +63,16 @@ section {
   text-transform: uppercase;
   letter-spacing: 1.3px;
   font-weight: 700;
-  color: #313133;
-  background: #4fd1c5;
-  background: linear-gradient(
+  color: rgb(20, 83, 83);
+  background: #b6d9a9;
+  /* background: linear-gradient(
     90deg,
     rgba(129, 230, 217, 1) 0%,
     rgba(79, 209, 197, 1) 100%
-  );
+  ); */
   border: none;
   border-radius: 1000px;
-  box-shadow: 12px 12px 24px rgba(79, 209, 197, 0.64);
+  box-shadow: 12px 12px 24px rgba(20, 83, 83, 0.521);
   transition: all 0.3s ease-in-out 0s;
   cursor: pointer;
   outline: none;
@@ -70,8 +85,8 @@ button::before {
   border-radius: 1000px;
   min-width: calc(300px + 12px);
   min-height: calc(60px + 12px);
-  border: 6px solid #00ffcb;
-  box-shadow: 0 0 60px rgba(0, 255, 203, 0.64);
+  border: 6px solid #b6d9a9;
+  box-shadow: 0 0 60px #b6d9a9;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -82,7 +97,7 @@ button::before {
 
 .button:hover,
 .button:focus {
-  color: #313133;
+  color: rgb(20, 83, 83);
   transform: translateY(-6px);
 }
 
@@ -96,7 +111,7 @@ button::after {
   width: 30px;
   height: 30px;
   border-radius: 100%;
-  border: 6px solid #00ffcb;
+  border: 6px solid #b6d9a9;
   position: absolute;
   z-index: -1;
   top: 50%;
