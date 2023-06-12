@@ -9,21 +9,24 @@
   justify-content: center;
   align-items: center;
 }
-.img-logo {
-  width: 300px;
-}
 
 .logo-container {
   display: flex;
   align-items: center;
+  flex-direction: column;
 }
-.logo-container img {
-  margin-top: 100px;
+.img-logo {
+  margin-top: 70px;
+  width: 300px;
+}
+.logo-container p {
+  color: #439494;
+  font-weight: bold;
 }
 
 .description-container {
   height: 35%;
-  background-image: linear-gradient(#fff, #439494bb);
+  background-image: linear-gradient(#fff, #439494);
 
   display: flex;
   justify-content: center;
@@ -31,8 +34,10 @@
 .img-home {
   width: 370px;
   align-self: flex-end;
-  opacity: 0.8;
+  opacity: 0.7;
+  border-bottom: 1px solid #fff;
 }
+
 .description {
   align-self: flex-end;
   font-family: "Dancing Script", cursive;
@@ -44,6 +49,9 @@
 @media (max-width: 850px) {
   .description {
     display: none;
+  }
+  .img-logo {
+    margin-top: 90px;
   }
 }
 
@@ -65,11 +73,6 @@
   font-weight: 700;
   color: rgb(20, 83, 83);
   background: #b6d9a9;
-  /* background: linear-gradient(
-    90deg,
-    rgba(129, 230, 217, 1) 0%,
-    rgba(79, 209, 197, 1) 100%
-  ); */
   border: none;
   border-radius: 1000px;
   box-shadow: 12px 12px 24px rgba(20, 83, 83, 0.521);
