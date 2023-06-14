@@ -51,7 +51,10 @@
     display: none;
   }
   .img-logo {
-    margin-top: 90px;
+    margin-top: 50px;
+  }
+  .img-home {
+    width: 250px;
   }
 }
 

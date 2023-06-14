@@ -22,7 +22,7 @@
   padding-top: 30px;
 }
 .about-summary {
-  text-align: justify;
+  /* text-align: justify; */
   text-indent: 20px;
   font-size: 20px;
   margin: 0px 100px 0px 100px;
@@ -39,9 +39,6 @@
   height: 400px;
   text-align: center;
 }
-.professional-presentation p {
-  text-align: justify;
-}
 
 .professionals {
   width: 300px;
@@ -53,6 +50,7 @@
 @media (max-width: 500px) {
   .about-summary {
     margin: 0px 20px 0px 20px;
+    text-align: center;
   }
   .professionals {
     width: 200px;
