@@ -47,10 +47,19 @@
   border-radius: 10px;
 }
 
+.img-logo {
+  display: flex;
+  justify-content: center;
+}
+.img-logo img {
+  width: 150px;
+  margin: 30px;
+}
+
 @media (max-width: 500px) {
   .about-summary {
     margin: 0px 20px 0px 20px;
-    text-align: center;
+    text-align: justify;
   }
   .professionals {
     width: 200px;
