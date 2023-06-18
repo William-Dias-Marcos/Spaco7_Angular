@@ -39,6 +39,11 @@
   height: 400px;
   text-align: center;
 }
+.professional-presentation p {
+  font-size: 18px;
+  text-align: justify;
+  height: 300px;
+}
 
 .professionals {
   width: 300px;
@@ -67,5 +72,9 @@
   }
   .professional-presentation {
     flex-basis: auto;
+  }
+  .professional-presentation p {
+    font-size: 16px;
+    height: auto;
   }
 }
