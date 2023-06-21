@@ -16,7 +16,6 @@
   flex-direction: column;
 }
 .img-logo {
-  margin-top: 70px;
   width: 300px;
 }
 .logo-container p {
@@ -60,24 +59,23 @@
 
 /* button animation style */
 .wrap {
-  height: 100%;
+  padding-top: 60px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .button {
-  min-width: 300px;
-  min-height: 60px;
+  width: 250px;
   font-family: "Nunito", sans-serif;
   font-size: 22px;
   text-transform: uppercase;
-  letter-spacing: 1.3px;
+  letter-spacing: 1px;
   font-weight: 700;
   color: rgb(20, 83, 83);
   background: #b6d9a9;
   border: none;
-  border-radius: 1000px;
+  border-radius: 100px;
   box-shadow: 12px 12px 24px rgba(20, 83, 83, 0.521);
   transition: all 0.3s ease-in-out 0s;
   cursor: pointer;
@@ -88,11 +86,11 @@
 
 button::before {
   content: "";
-  border-radius: 1000px;
-  min-width: calc(300px + 12px);
-  min-height: calc(60px + 12px);
+  border-radius: 100px;
+  min-width: calc(245px + 12px);
+  min-height: calc(65px + 12px);
   border: 6px solid #b6d9a9;
-  box-shadow: 0 0 60px #b6d9a9;
+  box-shadow: 0 0 40px #b6d9a9;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -114,8 +112,8 @@ button:focus::before {
 
 button::after {
   content: "";
-  width: 30px;
-  height: 30px;
+  width: 20px;
+  height: 20px;
   border-radius: 100%;
   border: 6px solid #b6d9a9;
   position: absolute;
@@ -134,13 +132,13 @@ button:focus::after {
 
 @keyframes ring {
   0% {
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
     opacity: 1;
   }
   100% {
-    width: 300px;
-    height: 300px;
+    width: 150px;
+    height: 150px;
     opacity: 0;
   }
 }
