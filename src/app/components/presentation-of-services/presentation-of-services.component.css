@@ -1,0 +1,88 @@
+.container {
+  background-color: #439494;
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  padding-top: 50px;
+}
+
+#services {
+  background-color: #0e6150;
+  padding: 40px 110px 0px 110px;
+  border-radius: 20px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+#services img {
+  width: 350px;
+}
+
+h2 {
+  padding: 20px;
+  font-weight: bold;
+}
+
+.container-name-of-services {
+  display: flex;
+}
+.container-name-of-services p {
+  text-align: center;
+}
+
+.name-of-services {
+  font-size: 20px;
+  padding: 20px;
+  opacity: 0;
+  animation-name: randomAnimation;
+  animation-duration: 4s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-play-state: running;
+}
+
+.name-of-services:nth-child(1) {
+  animation-delay: 1s;
+}
+
+.name-of-services:nth-child(2) {
+  animation-delay: 2s;
+}
+
+.name-of-services:nth-child(3) {
+  animation-delay: 3s;
+}
+
+.name-of-services:nth-child(4) {
+  animation-delay: 4s;
+}
+
+@keyframes randomAnimation {
+  0% {
+    transform: translateY(0);
+    opacity: 0;
+  }
+  50% {
+    transform: translateY(-20px);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 0;
+  }
+}
+
+@media (max-width: 800px) {
+  #services {
+    width: 96%;
+    height: 96%;
+    padding: 0px 0px 0px 0px;
+  }
+  #services img {
+    width: 280px;
+  }
+}
