@@ -9,6 +9,7 @@ import { AboutComponent } from './components/about/about.component';
 import { OpeningHoursComponent } from './components/opening-hours/opening-hours.component';
 import { WhatsappConversationComponent } from './components/whatsapp-conversation/whatsapp-conversation.component';
 import { PresentationOfServicesComponent } from './components/presentation-of-services/presentation-of-services.component';
+import { WorkSpaceComponent } from './components/work-space/work-space.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { PresentationOfServicesComponent } from './components/presentation-of-se
     AboutComponent,
     OpeningHoursComponent,
     WhatsappConversationComponent,
-    PresentationOfServicesComponent
+    PresentationOfServicesComponent,
+    WorkSpaceComponent
   ],
   imports: [
     BrowserModule,
