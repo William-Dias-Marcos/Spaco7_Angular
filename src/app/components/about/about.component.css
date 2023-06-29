@@ -1,6 +1,6 @@
 .about-container {
-  padding-top: 30px;
-  padding-bottom: 50px;
+  padding-top: 100px;
+  padding-bottom: 100px;
   background-color: #439494;
 }
 .about-container div {
@@ -37,6 +37,10 @@
 .professional-presentation {
   flex-basis: calc(33.33% - 20px);
   text-align: center;
+}
+
+.professional-presentation h3 {
+  padding: 10px;
 }
 
 .professional-presentation p {
