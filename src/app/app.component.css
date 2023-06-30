@@ -1,0 +1,8 @@
+.container-hours-services {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  background-color: #439494;
+}
