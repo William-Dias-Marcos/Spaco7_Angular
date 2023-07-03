@@ -10,6 +10,7 @@ import { OpeningHoursComponent } from './components/opening-hours/opening-hours.
 import { WhatsappConversationComponent } from './components/whatsapp-conversation/whatsapp-conversation.component';
 import { PresentationOfServicesComponent } from './components/presentation-of-services/presentation-of-services.component';
 import { WorkSpaceComponent } from './components/work-space/work-space.component';
+import { LocationComponent } from './components/location/location.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { WorkSpaceComponent } from './components/work-space/work-space.component
     OpeningHoursComponent,
     WhatsappConversationComponent,
     PresentationOfServicesComponent,
-    WorkSpaceComponent
+    WorkSpaceComponent,
+    LocationComponent
   ],
   imports: [
     BrowserModule,
