@@ -67,6 +67,8 @@
 }
 
 .button {
+  text-align: center;
+  text-decoration: none;
   width: 200px;
   font-family: "Nunito", sans-serif;
   font-size: 20px;
@@ -85,7 +87,7 @@
   padding: 5px;
 }
 
-button::before {
+a::before {
   content: "";
   border-radius: 100px;
   min-width: calc(197px + 12px);
@@ -106,12 +108,12 @@ button::before {
   transform: translateY(-6px);
 }
 
-button:hover::before,
-button:focus::before {
+a:hover::before,
+a:focus::before {
   opacity: 1;
 }
 
-button::after {
+a::after {
   content: "";
   width: 20px;
   height: 20px;
@@ -125,8 +127,8 @@ button::after {
   animation: ring 1.5s infinite;
 }
 
-button:hover::after,
-button:focus::after {
+a:hover::after,
+a:focus::after {
   animation: none;
   display: none;
 }
@@ -142,7 +144,7 @@ button:focus::after {
     padding: 15px;
   }
 
-  button::before {
+  a::before {
     min-width: calc(300px + 8px);
   }
 }
