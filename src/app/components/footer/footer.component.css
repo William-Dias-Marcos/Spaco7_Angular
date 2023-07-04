@@ -1,0 +1,50 @@
+footer {
+  height: 12vh;
+  font-size: 18px;
+  color: #fff;
+  background-color: #439494;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap-reverse;
+}
+
+.reserved-rights {
+  text-align: center;
+  width: 250px;
+}
+
+.social-media {
+  width: 250px;
+  display: flex;
+  justify-content: center;
+}
+.social-media div {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.top-link {
+  width: 250px;
+  text-align: center;
+}
+a {
+  color: #fff;
+}
+
+.instagram {
+  width: 40px;
+}
+.facebook {
+  width: 45px;
+}
+.whatsapp {
+  width: 60px;
+}
+
+@media (max-width: 750px) {
+  footer {
+    height: 200px;
+  }
+}

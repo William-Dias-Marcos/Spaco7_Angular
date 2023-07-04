@@ -11,6 +11,7 @@ import { WhatsappConversationComponent } from './components/whatsapp-conversatio
 import { PresentationOfServicesComponent } from './components/presentation-of-services/presentation-of-services.component';
 import { WorkSpaceComponent } from './components/work-space/work-space.component';
 import { LocationComponent } from './components/location/location.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { LocationComponent } from './components/location/location.component';
     WhatsappConversationComponent,
     PresentationOfServicesComponent,
     WorkSpaceComponent,
-    LocationComponent
+    LocationComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
