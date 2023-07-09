@@ -4,7 +4,7 @@
 
   background-color: #439494;
   color: #fff;
-  padding-bottom: 100px;
+  padding-bottom: 50px;
 }
 
 .container-content {
@@ -13,14 +13,16 @@
   flex-direction: column;
   align-items: center;
 
-  background-color: #ffffff93;
+  border: 1px solid #fff;
   border-radius: 20px;
 }
 
 h2 {
   text-align: center;
   padding: 30px;
-  font-weight: bold;
+  font-size: 50px;
+  font-family: "Dancing Script", cursive;
+  color: #026150;
 }
 
 table {
@@ -30,25 +32,24 @@ table {
 th,
 td {
   padding: 25px;
+  font-size: 20px;
+  border-bottom: solid 1px #ffffff88;
 }
 
 th {
   font-weight: bold;
 }
 
-tr:nth-child(even) {
-  background-color: #4ee2b1;
-}
-
 @media (max-width: 1500px) {
   .container {
-    width: 60vw;
+    width: 40vw;
   }
 }
 
 @media (max-width: 1000px) {
   .container {
     width: 70vw;
+    height: auto;
   }
 }
 

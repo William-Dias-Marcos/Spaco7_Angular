@@ -2,7 +2,7 @@ footer {
   height: 12vh;
   font-size: 18px;
   color: #fff;
-  background-color: #439494;
+  background-color: rgb(20, 83, 83);
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -31,6 +31,7 @@ footer {
 }
 a {
   color: #fff;
+  text-decoration: none;
 }
 
 .instagram {

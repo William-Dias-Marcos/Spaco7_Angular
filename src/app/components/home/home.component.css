@@ -4,16 +4,16 @@
 
 .main-logo {
   height: 65%;
+
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 
 .logo-container {
   display: flex;
   align-items: center;
   flex-direction: column;
+  padding: 50px 0px 50px 0px;
 }
 .img-logo {
   width: 325px;
@@ -25,10 +25,10 @@
 
 .description-container {
   height: 35%;
-  background-image: linear-gradient(#fff, #439494);
 
   display: flex;
   justify-content: center;
+  background-image: linear-gradient(#fff, #439494);
 }
 .img-home {
   width: 370px;
@@ -42,25 +42,11 @@
   font-family: "Dancing Script", cursive;
   font-size: 50px;
   font-weight: bold;
-  color: rgb(20, 83, 83);
-}
-
-@media (max-width: 850px) {
-  .description {
-    display: none;
-  }
-  .img-logo {
-    width: 250px;
-    margin-top: -50px;
-  }
-  .img-home {
-    width: 300px;
-  }
+  color: #fff;
 }
 
 /* button animation style */
 .wrap {
-  padding-top: 50px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -148,6 +134,25 @@ a:focus::after {
     min-width: calc(300px + 8px);
   }
 }
+
+@media (max-width: 850px) {
+  .logo-container {
+    padding: 50px 0px 0px 0px;
+  }
+  .description {
+    display: none;
+  }
+  .img-logo {
+    width: 200px;
+  }
+  .img-home {
+    width: 300px;
+  }
+  .wrap {
+    padding-top: 50px;
+  }
+}
+
 @keyframes ring {
   0% {
     width: 20px;

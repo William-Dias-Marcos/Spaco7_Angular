@@ -4,7 +4,7 @@
 
   background-color: #439494;
   color: #fff;
-  padding-bottom: 100px;
+  padding-bottom: 50px;
 }
 
 #services {
@@ -13,21 +13,26 @@
   flex-direction: column;
   align-items: center;
 
-  background-color: #0e6150;
+  border: 1px solid #fff;
   border-radius: 20px;
 }
 
 #services div {
   align-items: flex-end;
-  overflow: hidden;
 }
 #services img {
-  width: 300px;
+  width: 265px;
+  opacity: 0.7;
+  border-bottom: 1px solid #fff;
 }
 
 h2 {
+  text-align: center;
   padding: 30px;
+  font-size: 50px;
+  font-family: "Dancing Script", cursive;
   font-weight: bold;
+  color: #026150;
 }
 
 .container-name-of-services {
@@ -39,8 +44,7 @@ h2 {
 
 .name-of-services {
   font-size: 25px;
-  padding: 25px;
-  opacity: 0;
+  padding: 20px;
   animation-name: randomAnimation;
   animation-duration: 4s;
   animation-timing-function: ease-in-out;
@@ -67,13 +71,17 @@ h2 {
 
 @media (max-width: 1500px) {
   .container {
-    width: 60vw;
+    width: 40vw;
+  }
+  #services img {
+    padding-top: 15px;
   }
 }
 
 @media (max-width: 1000px) {
   .container {
     width: 70vw;
+    height: auto;
   }
 }
 
@@ -81,31 +89,21 @@ h2 {
   .container {
     width: 96vw;
   }
-  #services img {
-    width: 290px;
-  }
+
   .name-of-services {
     font-size: 20px;
     padding: 25px;
-  }
-}
-@media (max-width: 400px) {
-  #services img {
-    width: 270px;
   }
 }
 
 @keyframes randomAnimation {
   0% {
     transform: translateY(0);
-    opacity: 0;
   }
   50% {
-    transform: translateY(+10px);
-    opacity: 1;
+    transform: translateY(+5px);
   }
   100% {
     transform: translateY(0);
-    opacity: 0;
   }
 }
