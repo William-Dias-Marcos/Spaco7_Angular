@@ -8,3 +8,15 @@ body {
   margin: 0px;
   font-family: "segoe ui";
 }
+
+body::-webkit-scrollbar {
+  width: 10px; /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+  background: rgb(20, 83, 83); /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #439494;
+}
