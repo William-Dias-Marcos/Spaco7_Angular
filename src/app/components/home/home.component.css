@@ -153,9 +153,9 @@ a:focus::after {
   }
 }
 
-@media (max-width: 850px) {
+@media (max-width: 300px) {
   .img-home {
-    width: 200px;
+    width: 280px;
   }
 }
 
