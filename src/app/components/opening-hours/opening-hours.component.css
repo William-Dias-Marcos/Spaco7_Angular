@@ -59,7 +59,13 @@ th {
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 370px) {
+  th,
+  td {
+    padding: 18px;
+  }
+}
+@media (max-width: 310px) {
   th,
   td {
     padding: 10px;
