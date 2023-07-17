@@ -96,6 +96,16 @@ h2 {
   }
 }
 
+@media (max-width: 300px) {
+  .name-of-services {
+    font-size: 20px;
+    padding: 10px;
+  }
+  #services img {
+    width: 230px;
+  }
+}
+
 @keyframes randomAnimation {
   0% {
     transform: translateY(0);

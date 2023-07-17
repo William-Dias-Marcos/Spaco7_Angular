@@ -153,6 +153,12 @@ a:focus::after {
   }
 }
 
+@media (max-width: 850px) {
+  .img-home {
+    width: 200px;
+  }
+}
+
 @keyframes ring {
   0% {
     width: 20px;

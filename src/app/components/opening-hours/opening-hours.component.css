@@ -58,3 +58,10 @@ th {
     width: 96vw;
   }
 }
+
+@media (max-width: 400px) {
+  th,
+  td {
+    padding: 10px;
+  }
+}
